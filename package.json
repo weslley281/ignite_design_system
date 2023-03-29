@@ -1,0 +1,11 @@
+{
+  "name": "@ferraz-ui/ignite_design_system_ferraz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weslley Henrique Vieira Ferraz",
+  "license": "ISC"
+}
