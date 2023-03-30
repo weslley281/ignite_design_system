@@ -1,5 +1,5 @@
 {
-  "name": "@ferraz-ui/tokens",
+  "name": "@ferraz-ui/react",
   "version": "1.0.0",
   "description": "",
   "module": "./dist/index.mjs",
@@ -10,9 +10,11 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Weslley Henrique Vieira Ferraz",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ferraz-ui/tokens": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   }
