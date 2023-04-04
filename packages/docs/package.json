@@ -25,6 +25,8 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@ferraz-ui/react": "*",
+    "@ferraz-ui/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
