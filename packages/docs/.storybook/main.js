@@ -8,6 +8,8 @@ const config = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-docs',
+    '@storybook/preset-typescript',
   ],
   framework: {
     name: '@storybook/react-webpack5',
