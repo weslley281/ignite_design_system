@@ -28,7 +28,9 @@
   },
   "dependencies": {
     "@ferraz-ui/react": "*",
+    "@ferraz-ui/ts-config": "*",
     "@ferraz-ui/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
