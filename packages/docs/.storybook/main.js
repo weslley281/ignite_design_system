@@ -1,19 +1,15 @@
-/** @type { import('@storybook/react-webpack5').StorybookConfig } */
-const config = {
+module.exports = {
   stories: ['../src/pages/**/*.stories.mdx', '../src/stories/**/*.stories.tsx'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
-    '@storybook/addon-docs',
-    '@storybook/preset-typescript',
   ],
-  framework: {
-    name: '@storybook/react-webpack5',
-    options: {},
+  framework: '@storybook/react',
+  core: {
+    builder: '@storybook/builder-vite',
   },
-  docs: {
-    autodocs: 'tag',
+  features: {
+    storyStoreV7: true,
   },
 };
-export default config;
