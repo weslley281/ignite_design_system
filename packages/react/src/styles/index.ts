@@ -6,8 +6,8 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ferraz-ui/tokens';
-import { createStitches, defaultThemeMap } from '@stitches/react';
+} from '@ignite-ui/tokens'
+import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
   styled,
@@ -34,4 +34,4 @@ export const {
     radii,
     space,
   },
-});
+})
